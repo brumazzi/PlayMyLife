@@ -1,0 +1,133 @@
+{
+    "status": {
+        "health": {
+            "text": "Health",
+            "max": 100.0,
+            "min": 0.0,
+            "value": 100.0
+        },
+        "satiate": {
+            "text": "Satiate",
+            "max": 100.0,
+            "min": 0.0,
+            "value": 100.0
+        },
+        "calm": {
+            "text": "Calm",
+            "max": 100.0,
+            "min": 0.0,
+            "value": 100.0
+        },
+        "wake": {
+            "text": "Wake",
+            "max": 100.0,
+            "min": 0.0,
+            "value": 100.0
+        },
+        "mood": {
+            "text": "Mood",
+            "max": 100.0,
+            "min": 0.0,
+            "value": 100.0
+        },
+        "hygiene": {
+            "text": "Hygiene",
+            "max": 100.0,
+            "min": 0.0,
+            "value": 100.0
+        },
+        "bath": {
+            "text": "Bath",
+            "max": 100.0,
+            "min": 0.0,
+            "value": 100.0
+        },
+        "stage": {
+            "text": "Stage",
+            "value": "",
+            "acceptable": [
+                {"sleep": "Sleep"},
+                {"sick": "Sick"}
+            ]
+        },
+        "sick": {
+            "text": "Sick",
+            "value": "",
+            "acceptable": []
+        }
+    },
+    "statusDecrease": {
+        "health by satiate": {
+            "target": "health",
+            "condition": "status['satiate']['value'] < 10.0",
+            "value": 1.2
+        },
+        "health by wake": {
+            "target": "health",
+            "condition": "status['wake']['value'] < 20.0",
+            "value": 0.8
+        },
+        "health by hygiene": {
+            "target": "health",
+            "condition": "status['hygiene']['value'] < 25.0",
+            "value": 1.8
+        },
+        "satiate": {
+            "target": "satiate",
+            "value": 0.7
+        },
+        "calm by wake":{
+            "target": "calm",
+            "value": 1.7,
+            "condition": "status['wake']['value'] < 25.0"
+        },
+        "calm by mood":{
+            "target": "calm",
+            "value": 0.6,
+            "condition": "status['mood']['value'] < 25.0"
+        },
+        "wake": {
+            "target": "wake",
+            "value": 1.4
+        },
+        "mood": {
+            "target": "mood",
+            "value": 0.4
+        },
+        "hygiene": {
+            "target": "hygiene",
+            "value": 1.2
+        },
+        "hygiene by bath": {
+            "target": "hygiene",
+            "value": 64.0,
+            "condition": "status['bath'] == 0"
+        },
+        "bath": {
+            "target": "bath",
+            "value": 1.2
+        }
+    },
+    "statusIncrease": {
+        "health": {
+            "target": "health",
+            "condition": "status['satiate']['value'] > 10.0 and status['wake']['value'] > 20.0 and status['hygiene']['value'] > 25.0",
+            "value": 0.4
+        },
+        "bath": {
+            "target": "bath",
+            "condition": "status['bath'] == 0",
+            "value": 86.0
+        },
+        "calm by wake":{
+            "target": "calm",
+            "value": 0.3,
+            "condition": "status['wake']['value'] > 25.0"
+        },
+        "calm by mood":{
+            "target": "calm",
+            "value": 0.5,
+            "condition": "status['mood']['value'] > 25.0"
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "floor.001": {
+        "target": "WoodFloor.001",
+        "position": [-1, -1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.002": {
+        "target": "WoodFloor.001",
+        "position": [-1, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.003": {
+        "target": "WoodFloor.001",
+        "position": [-1, 1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.004": {
+        "target": "WoodFloor.001",
+        "position": [0, -1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.005": {
+        "target": "WoodFloor.001",
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.006": {
+        "target": "WoodFloor.001",
+        "position": [0, 1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.007": {
+        "target": "WoodFloor.001",
+        "position": [1, -1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.008": {
+        "target": "WoodFloor.001",
+        "position": [1, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.009": {
+        "target": "WoodFloor.001",
+        "position": [1, 1, 0],
+        "rotation": [0, 0, 0]
+    },
+
+    "wall.001": {
+        "target": "Wall.001",
+        "position": [-1.5, -1, 0],
+        "rotation": [1.5707, 0, 1.5707]
+    },
+    "wall.002": {
+        "target": "Wall.001",
+        "position": [-1.5, 0, 0],
+        "rotation": [1.5707, 0, 1.5707]
+    },
+    "wall.003": {
+        "target": "Wall.001",
+        "position": [-1.5, 1, 0],
+        "rotation": [1.5707, 0, 1.5707]
+    },
+    "wall.004": {
+        "target": "Wall.001",
+        "position": [-1, 1.5, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.005": {
+        "target": "Wall.001",
+        "position": [0, 1.5, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.006": {
+        "target": "Wall.001",
+        "position": [1, 1.5, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "bed.001": {
+        "target": "Bed",
+        "position": [1.43878, -0.619777, 0],
+        "rotation": [0, 0, 1.5707],
+        "properties": {
+            "menu": {
+                "title": "Bed",
+                "items": {
+                    "icon.001": {
+                        "target": "IconSleep",
+                        "properties": {
+                            "action": "room/sleep"
+                        }
+                    }
+                }
+            },
+            "action": "menu"
+        }
+    },
+    "desk.001": {
+        "target": "Desk",
+        "position": [-1.4134, 0.64, 0],
+        "rotation": [0, 0, 0]
+    },
+    "chair.001": {
+        "target": "Chair",
+        "position": [-0.819551, 0.753112, 0],
+        "rotation": [0, 0, 3.1415]
+    },
+    "notebook.001": {
+        "target": "Computer",
+        "position": [-0.828151, 0.725026, 0.9],
+        "rotation": [0, 0, 0],
+        "properties": {
+            "menu": {
+                "title": "Computer",
+                "items": {
+                    "icon.001": {
+                        "target": "IconWork",
+                        "properties": {
+                            "action": "computer/work"
+                        }
+                    },
+                    "icon.002": {
+                        "target": "IconPlay",
+                        "properties": {
+                            "action": "computer/play"
+                        }
+                    },
+                    "icon.003": {
+                        "target": "IconChat",
+                        "properties": {
+                            "action": "computer/chat"
+                        }
+                    },
+                    "icon.004": {
+                        "target": "IconFood",
+                        "properties": {
+                            "action": "computer/food"
+                        }
+                    }
+                }
+            },
+            "action": "menu"
+        }
+    },
+    "door.001": {
+        "target": "Door",
+        "position": [1.40274, -1.48687, 0],
+        "rotation": [0, 0, 3.1415],
+        "properties": {
+            "open": "City.MyHouseOut",
+            "action": "open"
+        }
+    },
+    "door.002": {
+        "target": "Door",
+        "position": [-1.47726, -1.40141, 0],
+        "rotation": [0, 0, 1.5707],
+        "properties": {
+            "open": "MyHouse.Bathroom",
+            "action": "open"
+        }
+    },
+    "lamp.001": {
+        "target": "Lamp",
+        "position": [0, 0, 2],
+        "rotation": [0, 0, 0]
+    }
+
+}

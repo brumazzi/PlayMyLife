@@ -1,0 +1,110 @@
+{
+    "floor.001": {
+        "target": "TileFloor.001",
+        "position": [0.5, -1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.002": {
+        "target": "TileFloor.001",
+        "position": [0.5, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.003": {
+        "target": "TileFloor.001",
+        "position": [0.5, 1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.004": {
+        "target": "TileFloor.001",
+        "position": [-0.5, -1, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.005": {
+        "target": "TileFloor.001",
+        "position": [-0.5, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "floor.006": {
+        "target": "TileFloor.001",
+        "position": [-0.5, 1, 0],
+        "rotation": [0, 0, 0]
+    },
+
+    "wall.001": {
+        "target": "Wall.001",
+        "position": [-1, -1, 0],
+        "rotation": [1.5707, 0, 1.5707]
+    },
+    "wall.002": {
+        "target": "Wall.001",
+        "position": [-1, 0, 0],
+        "rotation": [1.5707, 0, 1.5707]
+    },
+    "wall.003": {
+        "target": "Wall.001",
+        "position": [-1, 1, 0],
+        "rotation": [1.5707, 0, 1.5707]
+    },
+    "wall.004": {
+        "target": "Wall.001",
+        "position": [-0.5, 1.5, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.005": {
+        "target": "Wall.001",
+        "position": [0.5, 1.5, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "toilet.001": {
+        "target": "Toilet",
+        "position": [0.469643, 1.43536, 0],
+        "rotation": [0, 0, -1.5707],
+        "properties":{
+            "action": "menu",
+            "menu":{
+                "title": "Toilet",
+                "items": {
+                    "icon.001": {
+                        "target": "IconPiss",
+                        "properties": {
+                            "action": "bath/piss"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tub.001": {
+        "target": "Tub",
+        "position": [-0.25, -0.204146, 0],
+        "rotation": [0, 0, 1.5707],
+        "properties":{
+            "action": "menu",
+            "menu":{
+                "title": "Toilet",
+                "items": {
+                    "icon.001": {
+                        "target": "IconWash",
+                        "properties": {
+                            "action": "bath/shower"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "door.001": {
+        "target": "Door",
+        "position": [1.02274, -1.40141, 0],
+        "rotation": [0, 0, 1.5707],
+        "properties": {
+            "open": "MyHouse.Room",
+            "action": "open"
+        }
+    },
+    "lamp.001": {
+        "target": "Lamp",
+        "position": [0, 0, 2],
+        "rotation": [0, 0, 0]
+    }
+}

@@ -1,0 +1,3 @@
+CONSTANT = 8
+
+print(100/24/6*CONSTANT)

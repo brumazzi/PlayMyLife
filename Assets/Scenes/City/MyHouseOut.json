@@ -1,0 +1,192 @@
+{
+    "wall.001": {
+        "target": "Wall.001",
+        "position": [-6, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.002": {
+        "target": "Wall.001",
+        "position": [-5, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.003": {
+        "target": "Wall.001",
+        "position": [-4, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.004": {
+        "target": "Wall.001",
+        "position": [-3, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.005": {
+        "target": "Wall.001",
+        "position": [-2, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.006": {
+        "target": "Wall.001",
+        "position": [-1, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.007": {
+        "target": "Wall.001",
+        "position": [0, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.008": {
+        "target": "Wall.001",
+        "position": [1, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.009": {
+        "target": "Wall.001",
+        "position": [2, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.010": {
+        "target": "Wall.001",
+        "position": [3, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.011": {
+        "target": "Wall.001",
+        "position": [4, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "wall.012": {
+        "target": "Wall.001",
+        "position": [5, 1, 0],
+        "rotation": [1.5707, 0, 0]
+    },
+    "floor.001": {
+        "target": "WoodFloor.001",
+        "position": [-6, 0.5, 0]
+    },
+    "floor.002": {
+        "target": "WoodFloor.001",
+        "position": [-5, 0.5, 0]
+    },
+    "floor.003": {
+        "target": "WoodFloor.001",
+        "position": [-4, 0.5, 0]
+    },
+    "floor.004": {
+        "target": "WoodFloor.001",
+        "position": [-3, 0.5, 0]
+    },
+    "floor.005": {
+        "target": "WoodFloor.001",
+        "position": [-2, 0.5, 0]
+    },
+    "floor.006": {
+        "target": "WoodFloor.001",
+        "position": [-1, 0.5, 0]
+    },
+    "floor.007": {
+        "target": "WoodFloor.001",
+        "position": [0, 0.5, 0]
+    },
+    "floor.008": {
+        "target": "WoodFloor.001",
+        "position": [1, 0.5, 0]
+    },
+    "floor.009": {
+        "target": "WoodFloor.001",
+        "position": [2, 0.5, 0]
+    },
+    "floor.010": {
+        "target": "WoodFloor.001",
+        "position": [3, 0.5, 0]
+    },
+    "floor.011": {
+        "target": "WoodFloor.001",
+        "position": [4, 0.5, 0]
+    },
+    "floor.012": {
+        "target": "WoodFloor.001",
+        "position": [-6, -0.5, 0]
+    },
+    "floor.013": {
+        "target": "WoodFloor.001",
+        "position": [-5, -0.5, 0]
+    },
+    "floor.014": {
+        "target": "WoodFloor.001",
+        "position": [-4, -0.5, 0]
+    },
+    "floor.015": {
+        "target": "WoodFloor.001",
+        "position": [-3, -0.5, 0]
+    },
+    "floor.016": {
+        "target": "WoodFloor.001",
+        "position": [-2, -0.5, 0]
+    },
+    "floor.017": {
+        "target": "WoodFloor.001",
+        "position": [-1, -0.5, 0]
+    },
+    "floor.018": {
+        "target": "WoodFloor.001",
+        "position": [0, -0.5, 0]
+    },
+    "floor.019": {
+        "target": "WoodFloor.001",
+        "position": [1, -0.5, 0]
+    },
+    "floor.020": {
+        "target": "WoodFloor.001",
+        "position": [2, -0.5, 0]
+    },
+    "floor.021": {
+        "target": "WoodFloor.001",
+        "position": [3, -0.5, 0]
+    },
+    "floor.022": {
+        "target": "WoodFloor.001",
+        "position": [4, -0.5, 0]
+    },
+    "floor.023": {
+        "target": "WoodFloor.001",
+        "position": [5, 0.5, 0]
+    },
+    "floor.024": {
+        "target": "WoodFloor.001",
+        "position": [5, -0.5, 0]
+    },
+    "door.001": {
+        "target": "Door",
+        "position": [-2, 1, 0],
+        "rotation": [0, 0, 3.1415],
+        "properties": {
+            "open": ""
+        }
+    },
+    "door.002": {
+        "target": "Door",
+        "position": [1, 1, 0],
+        "rotation": [0, 0, 3.1415],
+        "properties": {
+            "open": "MyHouse.Room",
+            "action": "open"
+        }
+    },
+    "door.003": {
+        "target": "Door",
+        "position": [4, 1, 0],
+        "rotation": [0, 0, 3.1415],
+        "properties": {
+            "open": ""
+        }
+    },
+    "lamp.001": {
+        "target": "Lamp",
+        "position": [-2.5, 0, 2]
+    }
+    ,
+    "lamp.002": {
+        "target": "Lamp",
+        "position": [2.5, 0, 2]
+    }
+}
